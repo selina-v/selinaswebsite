@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <div class="moon-header">
+            <h1>
+                Magic 8 Ball
+            </h1>
+        </div>
+        <img id="image" src="moon-bunny.png">
+        <h2>
+            What kind of question do you have for me today?
+        </h2>
+        <br>
+        <input id="answerInput">
+
+        <button id="button">Check Answer</button>
+        <button id="clear" onclick="clearInput()">Clear</button>
+
+        <p id="feedback"></p>
+        <br>
+        <button id="goBack" onclick="goBack()">Main Menu</button>
+        <script src="goback.js"></script>
+        <script src="check.js"></script>
+        <script src="clear.js"></script>
+    </body>
+</html>
