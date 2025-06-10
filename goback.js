@@ -1,3 +1,3 @@
 function goBack() {
-  window.location.href = "index.html";
+  window.location.href = "selinaswebsite.html";
 }
