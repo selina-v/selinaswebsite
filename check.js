@@ -42,7 +42,7 @@ function checkAnswer() {
     {
         wrongInput++;
         feedback.innerHTML = "That's not a question I can answer";
-        if (wrongInput % 3 === 0){ // ChatGPT helped me with modulo operator % would help detecct every 5th wrong input
+        if (wrongInput % 5 === 0){ // ChatGPT helped me with modulo operator % would help detecct every 5th wrong input
             image.src = "very-angry-shark.png";
         }
         else {
