@@ -10,7 +10,11 @@ The purpose of this website is because I want to create my own magic 8 ball that
 
 When you first enter my website you can click on the link that would take you to the Magic 8 Ball. Then user could input their yes or no question into the text box. Once they press enter, under the text box the website would give a random answer just like a regular Magic 8 Ball. There's also a button next to it where user can clear their whole text without using backspace. Underneath it all there's another button where it'll take them back to the main page of this website. Depending on the answer, the image changes expression that matches with it.
 
-**this is where I'll add my hyperlink**
+**https://youtu.be/ewtU8fN8-Uk**
+
+### AI Usage
+
+i aminly use it in my chekc.js and it for helping me with finding functions or pieces that I'm missing. For example: I didn't know how to use the Math.random to randomize variables from my list and I had to have ChatGPT help me. Another time was when ChatGPT gave me a reminder or a suggestion to add a .trim() so that even if the even accidentally enter an extra space it won't cost a bug in my code. Another time with modulo operator (%) because I wanted to repeat a process after every 5 clicks and I thought I need a for loop but ChapGPT said that I could use the modulo operator instead of a for loop. Now I've learned how to use modulo operator and .trim() and also Math.random.
 
 ### File Structure:
 
