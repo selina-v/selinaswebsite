@@ -1,3 +1,3 @@
 xfunction goBack() {
-  window.location.href = "indexe.html";
+  window.location.href = "index.html";
 }
