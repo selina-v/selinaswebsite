@@ -4,7 +4,7 @@
 
 ### Purpose & Description: 
 
-The purpose of this website is because I want to create my own magic 8 ball that I can easily access. During my childhood I never had a Magic 8 Ball before and making this website is like giving a gift to my youngerself. In my website you can access Magic 8 Ball where it'll answer your question, but the question must be a yes or no question or less it won't be able to answer your question.
+The purpose of this website is because I want to create my own magic 8 ball that I can easily access. During my childhood I never had a Magic 8 Ball before and making this website is like giving a gift to my youngerself. In my website you can access Magic 8 Ball where it'll answer your question, but the question must be a yes or no question or less it won't be able to answer your question. 
 
 ### How to Use the Website:
 
