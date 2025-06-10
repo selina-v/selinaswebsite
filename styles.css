@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.moon-header {
+  background-color: lavender;
+  color: black;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+#button {
+  padding: 5px 5px;
+}
+
+#goBack {
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+#answerInput {
+  padding: 5px 5px;
+}
+
+#feedback {
+  font-size: 18px;
+}
+
+#clear {
+  padding: 5px 5px;
+}
+
+#image {
+  width: auto;
+  height: 300px;
+}
+
+#ball {
+  font-size: 24px;
+}
