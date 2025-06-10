@@ -4,8 +4,8 @@ function checkAnswer() {
     let yesAnswers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes definitely", "You may rely on it",
         "As I see it, yes", "Most likely", "Outlook good yessir", "Yes", "Signs point to yes"];
     let noAnswers = ["Dont bet on it, please", "Let's see.... how about y- NO!", "My reply is no",
-        "My sources say no", "Outlook not so good sir", "I already said it's very doubtful", "Idk go ask ur pet"];
-    let maybeAnswers = ["Reply hazy, try again","Ask again later, please", "Better not tell you now...", "Oopies, Cannot predict now",
+        "My sources say no", "Outlook not so good sir", "I already said it's very doubtful"];
+    let maybeAnswers = ["Idk go ask ur pet", "Reply hazy, try again","Ask again later, please", "Better not tell you now...", "Oopies, Cannot predict now",
         "Concentrate and ask again"];
     let answer = [...yesAnswers, ...noAnswers, ...maybeAnswers]; //ChatGPT said that I didn't need to repeat the merge list and I can use ... to unpack the list that I already made
     let random_answer = answer[Math.floor(Math.random() * answer.length)] // ChatGPT helped with this part by showing me the pieces that I need (math.floor and math.random) for me to be able to randomize my answer from the list
