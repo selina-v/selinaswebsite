@@ -7,8 +7,8 @@ function checkAnswer() {
         "My sources say no", "Outlook not so good sir", "I already said it's very doubtful", "Idk go ask ur pet"];
     let maybeAnswers = ["Reply hazy, try again","Ask again later, please", "Better not tell you now...", "Oopies, Cannot predict now",
         "Concentrate and ask again"];
-    let answer = [...yesAnswers, ...noAnswers, ...maybeAnswers]; //ChatGpt said that I didn't need to repeat the merge list and I can use ... to unpack the list that I already made
-    let random_answer = answer[Math.floor(Math.random() * answer.length)]
+    let answer = [...yesAnswers, ...noAnswers, ...maybeAnswers]; //ChatGPT said that I didn't need to repeat the merge list and I can use ... to unpack the list that I already made
+    let random_answer = answer[Math.floor(Math.random() * answer.length)] // ChatGPT helped with this part by showing me the pieces that I need (math.floor and math.random) for me to be able to randomize my answer from the list
     let check = ["is", "are", "would", "will", "can", "could", "do","does", "have", "may", "might", "has", "should",
         "must", "am", "did", "was", "were", "shall"]
     let input = document.getElementById("answerInput").value;
@@ -42,7 +42,7 @@ function checkAnswer() {
     {
         wrongInput++;
         feedback.innerHTML = "That's not a question I can answer";
-        if (wrongInput % 3 === 0){ // modulo operator % would help detecct every 5th wrong input
+        if (wrongInput % 3 === 0){ // ChatGPT helped me with modulo operator % would help detecct every 5th wrong input
             image.src = "very-angry-shark.png";
         }
         else {
